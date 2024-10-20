@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+.Container{
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 0,0,0.1);
+
+}
+h1{
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+
+}
+p{
+    font-size: 1.2rem;
+
+}
+pre{
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-x: auto;
+    
+
+}
