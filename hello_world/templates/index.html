@@ -12,7 +12,7 @@
     <meta name="generator" content="GitHub Codespaces">
     <meta name="theme-color" content="#000000">
     <title>{% block title %}{{ title }} | GitHub Codespaces ♥️ Django{% endblock %}</title>
-    
+    <link rel="styleshee" href="styles.css">
     <link rel="stylesheet" href="{% static 'main.css' %}">
 </head>
 
@@ -27,6 +27,16 @@
                 Edit <code>hello_world/templates/index.html</code> and see changes live!
             </p>
         </header>
+    </div>
+    <div class="Container">
+        <h1>HTOP INFORMATION</h1>
+        <P> <strong> Name:</strong>{{Name}}</P>
+        <P> <strong> Username:</strong>{{Username}}</P>
+        <P> <strong> Servertime(IST):</strong>{{Servertime(IST)}}</P>
+        <pre> {{ Top_output}}</pre>
+
+
+        
     </div>
 </body>
 
